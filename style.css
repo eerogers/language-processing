@@ -1,0 +1,13 @@
+#inputBox {
+    height:200px;;
+    width:100%;
+    font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 82%;
+    overflow:scroll;
+    outline-style: solid;
+    outline-color: pink;
+
+}
+#submitButton {
+    padding: 5px;
+}

@@ -4,14 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Processing Fun</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <p>Processing Fun!</p>
-    <form name="myForm" onsubmit="validateForm()">
-        Text Sample: <input type="text" name="fname">
-        <input type="submit" value="Submit">
-      </form>
-    <p id="output"></p>
-    <script src="cover.js"></script>
+    <container>
+        <div class="navbar">
+           <h1>Processing Fun!</h1>
+        </div>
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-3">
+            <!-- <form name="myForm" onsubmit="validateForm()"> -->
+            <input type="text" id="inputBox" name="inputBox">
+            <!-- </form> -->
+            </div>
+            <div class="col-md-3">
+                <input type="submit" id="submitButton" value="Submit">
+            </div>
+            <div class="col-md-3">
+            </div>
+        </div>
+        <div class="row">
+            <p id="output"></p>
+        </div>
+    </container>
+    <script src = "code.js"></script>
 </body>
 </html>

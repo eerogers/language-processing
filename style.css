@@ -11,3 +11,12 @@
 #submitButton {
     padding: 5px;
 }
+.navbar {
+    background-color: pink;
+}
+.title {
+    text-align: center;
+}
+#the {
+    color: blue;
+}

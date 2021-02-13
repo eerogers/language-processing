@@ -10,13 +10,40 @@
 }
 #submitButton {
     padding: 5px;
+    background-color: gray;
+    color: white;
+    font-size: 20px;
+    font-family: "Times New Roman";
+    position: relative;
+    top: 65px;
+}
+.submitBox {
+    text-align: center;
 }
 .navbar {
     background-color: pink;
 }
 .title {
     text-align: center;
+    letter-spacing: 2px;
+    font-family: "Times New Roman";
 }
-#the {
-    color: blue;
+.processed {
+    font-weight: bold;
+    text-align: right;
+}
+.article {
+    color:slateblue;
+}
+#postThe {
+    color: purple;
+}
+#postA {
+    color: purple;
+}
+#subject {
+    color:seagreen;
+}
+#postSubject {
+    color: pink;
 }

@@ -10,6 +10,13 @@ $(document).on("click", "#submitButton", function(){
     inputArray = inputValue.split(" ")
     output = inputArray
     var i;
+    $("#statBoxCount").html("Word Count: " + output.length)
+    if (output.includes("the") || output.includes("The")) {
+        $("#statBoxLang").html("Language: English")
+    }
+    else {
+        $("#statBoxLang").html("Language: Unknown")
+    }
     for (i = 0; i < output.length; i++) {
         if (output[i] == "the" || output[i] == "The") {
             $("#output").append("<span class= 'article' id='the'>" + output[i] + "</span> ")

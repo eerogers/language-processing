@@ -1,11 +1,13 @@
 #inputBox {
     height:200px;;
     width:100%;
-    font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+    font-family: "Times New Roman";
     font-size: 82%;
     overflow:scroll;
     outline-style: solid;
     outline-color: pink;
+    padding: 10px;
+    font-size: 15px;
 
 }
 #submitButton {
@@ -16,6 +18,9 @@
     font-family: "Times New Roman";
     position: relative;
     top: 65px;
+}
+#statBox {
+    text-align: center;
 }
 .submitBox {
     text-align: center;
